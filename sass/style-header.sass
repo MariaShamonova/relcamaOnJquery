@@ -1,0 +1,69 @@
+body 
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 900px
+    font-family: PFBeauSansPro
+    font-size: 14.4
+    font-weight: 200
+    header
+        background-color: #ffffff
+        width: 100%
+        height: 100%
+        display: flex 
+        flex-direction: column
+        align-items: center
+        color: #000000
+        .container-menu
+            display: flex
+            flex-direction: row 
+            justify-content: space-between
+            align-items: center
+            width: 80% 
+            margin-top: 40px  
+            .top-menu
+                display: flex 
+                flex-direction: row 
+                justify-content: space-between
+                width: 33%
+                height: 45px
+                .top-menu-item
+                    a 
+                        color: #000000
+                        text-decoration: none
+                        &:hover
+                            color: #fdb527
+                    &:hover
+                        border-bottom: 1px solid #fdb527
+            .top-logo
+                width: 33%
+                display: flex 
+                justify-content: center
+            .top-contact-group
+                width: 33%
+                height: auto
+                display: flex 
+                justify-content: flex-end
+                .group-mobile-phone, .group-mobile-phone-hover
+                    display: none
+                    width: auto 
+                    .top-number-phone
+                        margin-right: 20px
+                    .icon-phone
+                        display: flex
+                        align-items: center
+                .group-mobile-phone-hover 
+                    color: #fdb527
+                    
+                .active
+                    display: flex
+                    flex-direction: row
+                    cursor: pointer
+
+@font-face 
+    font-family: PFBeauSansPro
+    src: url(../fonts/PFBeauSansPro-Thin.ttf)
+    font-weight: 200
+
+
+

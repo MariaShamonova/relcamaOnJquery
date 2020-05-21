@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 900px;
+  font-family: PFBeauSansPro;
+  font-size: 14.4;
+  font-weight: 200;
+}
+
+body header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+}
+
+body header .container-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin-top: 40px;
+}
+
+body header .container-menu .top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 33%;
+  height: 45px;
+}
+
+body header .container-menu .top-menu .top-menu-item a {
+  color: #000000;
+  text-decoration: none;
+}
+
+body header .container-menu .top-menu .top-menu-item a:hover {
+  color: #fdb527;
+}
+
+body header .container-menu .top-menu .top-menu-item:hover {
+  border-bottom: 1px solid #fdb527;
+}
+
+body header .container-menu .top-logo {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .container-menu .top-contact-group {
+  width: 33%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header .container-menu .top-contact-group .group-mobile-phone, body header .container-menu .top-contact-group .group-mobile-phone-hover {
+  display: none;
+  width: auto;
+}
+
+body header .container-menu .top-contact-group .group-mobile-phone .top-number-phone, body header .container-menu .top-contact-group .group-mobile-phone-hover .top-number-phone {
+  margin-right: 20px;
+}
+
+body header .container-menu .top-contact-group .group-mobile-phone .icon-phone, body header .container-menu .top-contact-group .group-mobile-phone-hover .icon-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .container-menu .top-contact-group .group-mobile-phone-hover {
+  color: #fdb527;
+}
+
+body header .container-menu .top-contact-group .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: PFBeauSansPro;
+  src: url(../fonts/PFBeauSansPro-Thin.ttf);
+  font-weight: 200;
+}
+/*# sourceMappingURL=style-header.css.map */
